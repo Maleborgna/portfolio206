@@ -1,0 +1,115 @@
+
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assets/logoArgProg.jpg" alt="" width="200" height="80" class="img-fluid">
+      #YoProgramo  
+    </a>
+    <!--<li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">
+        <div>
+          <img class="img-fluid" src="./assets/logoArgProg.jpg" alt="Logo Argentina Programa" width="200" height="80"> 
+           
+        </div>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <h3 class="YoProgramo">#YoProgramo</h3> 
+      </a>
+    </li>-->
+    
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <app-social-bar ></app-social-bar>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <button class="btn btn-primary" (click)="openModal()">Login</button>
+        
+      <div class="" *ngIf="modalSwitch == true">
+        <app-login class="applogin"></app-login>
+      </div>
+      </a>
+    </li>
+
+    
+  </div>
+</nav>
+
+   <!--<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">
+        <div>
+          <img class="img-fluid" src="./assets/logoArgProg.jpg" alt="Logo Argentina Programa" width="200" height="80"> 
+           
+        </div>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <h3 class="YoProgramo">#YoProgramo</h3> 
+      </a>
+    </li>
+    
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <app-social-bar ></app-social-bar>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <button class="btn btn-primary" (click)="openModal()">Login</button>
+        
+      <div class="" *ngIf="modalSwitch == true">
+        <app-login class="applogin"></app-login>
+      </div>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+
+  </ul>-->
+
+  <section>
+     <div class="banner"> 
+        <img src="./assets/headerhorizontal.JPG" alt="headercirculos" width="1318" height="300">
+    </div>
+       <app-acerca-de></app-acerca-de>  
+ </section>
+   
+   
+   <!--<header class="headerclass">
+    <div>
+      <img class="logoap" src="./assets/logoArgProg.jpg" alt="Logo Argentina Programa" width="200" height="80"> 
+      <h3 class="YoProgramo">#YoProgramo</h3>  
+      </div>
+    
+        <app-social-bar ></app-social-bar> 
+
+         <button class="btn btn-primary" (click)="openModal()">Login</button>
+        
+      <div class="" *ngIf="modalSwitch == true">
+        <app-login class="applogin"></app-login>
+      </div>
+  </header>
+   
+   <section>
+    
+    <div class="banner"> 
+      <img src="./assets/headerhorizontal.JPG" alt="headercirculos" width="1318" height="300">
+    </div>
+       <app-acerca-de></app-acerca-de>  
+       
+       
+   </section>-->
